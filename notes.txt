@@ -1,0 +1,30 @@
+2^3 = 8
+    - 2 to the power of 3 is 8
+
+log(8) = 3
+
+log(x) = y 
+if and only if
+2^y = x
+
+the number 2 is implied as the base when log is being used
+    - i.e: log(8) is equivalent to saying log(base)2(exponent)8
+
+as X doubles, Y increases by 1: log(x) = Y
+
+log(8) = 3
+log(16) = 4
+log(32) = 5
+log(64) = 6
+log(128) = 7
+
+as Y increases by 1, X doubles
+
+HOW THIS APPLIES TO ALOGRITHMS
+
+Linear time: an alogrithm that runs in linear time to complete, for example, an algorithm that, as the input value increases, the time the alogrithm takes to complete increaes linearly
+    - for example: an alogrithm that traverses a list of numbers
+    - i.e a list of 8 numbers will take 8 operations to complete, 16 numbers will take 16 operations to complete
+
+Logarithmic time: an alogrithm that runs in logarithmic time to complete, as the input size increases, the time it takes to complete increases logarimically
+    - if the input size is 128 and the alogrithm runs in logarithmic time, the alogrithm will take 7 steps to complete. Where as a linear time alogrithm will take 128 steps to complete
